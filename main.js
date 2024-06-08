@@ -15,7 +15,7 @@ function verifyOTP(){
   if(uservalue == ""){
     alert("Please Enter OTP")
   }
-  else if (uservalue.length > 6) {
+  else if (uservalue.length > 4) {
     alert("OTP is 4 digits Only")
   }
   else if(value != uservalue){
